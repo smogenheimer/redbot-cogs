@@ -1,8 +1,8 @@
 {
   "author": ["smogenheimer"],
-  "description": "Queue items fairly across users.",
-  "install_msg": "Thanks for installing FairQueue. Use [p]fairqueue add <item> to enqueue items fairly.",
-  "short": "Fairly distributed queue",
-  "tags": ["queue", "fair", "utility"],
+  "description": "Queue audio fairly across users using the Audio cog queue.",
+  "install_msg": "Thanks for installing FairQueue. Use [p]p <query> to queue tracks fairly.",
+  "short": "Fair audio queueing",
+  "tags": ["queue", "fair", "audio"],
   "type": "COG"
 }
