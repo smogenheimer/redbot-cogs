@@ -147,13 +147,6 @@ class FairQueueCog(commands.Cog):
             return await audio.send_embed_msg(
                 ctx, title="Unable To Play Tracks", description="Queue size limit reached."
             )
-        if query_obj.is_spotify:
-            return await audio.send_embed_msg(
-                ctx,
-                title="Unable To Play Tracks",
-                description="Spotify queries are not supported for fair queueing.",
-            )
-
         if not await audio.maybe_charge_requester(ctx, guild_data["jukebox_price"]):
             return
 
