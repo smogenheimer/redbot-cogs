@@ -1,5 +1,5 @@
 {
-  "author": ["OpenAI"],
+  "author": ["smogenheimer"],
   "description": "Queue audio fairly across users using the Audio cog queue.",
   "install_msg": "Thanks for installing FairQueue. Use [p]p <query> to queue tracks fairly.",
   "short": "Fair audio queueing",
