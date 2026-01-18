@@ -1,0 +1,8 @@
+{
+  "author": ["OpenAI"],
+  "description": "Queue items fairly across users.",
+  "install_msg": "Thanks for installing FairQueue. Use [p]fairqueue add <item> to enqueue items fairly.",
+  "short": "Fairly distributed queue",
+  "tags": ["queue", "fair", "utility"],
+  "type": "COG"
+}
